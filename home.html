@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Profil Saya</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #3b3bc1;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar .brand {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+
+    /* Section 2: Header dua kolom */
+    .header-section {
+      background-color: white;
+      padding: 20px;
+      margin: 20px;
+    }
+
+    .header-table {
+      width: 100%;
+    }
+
+    .header-table td {
+      vertical-align: top;
+      padding: 10px;
+    }
+
+    .header-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 6px 12px;
+      background-color: #3b3bc1;
+      color: white;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    /* Section 3: Biodata */
+    .biodata-section {
+      background-color: white;
+      padding: 20px;
+      margin: 20px;
+      text-align: center;
+    }
+
+    .biodata-section h2 {
+      margin-bottom: 5px;
+    }
+
+    .biodata-section p {
+      margin-top: 0;
+      color: #777;
+    }
+
+    .biodata-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .biodata-table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 33.33%;
+    }
+
+    /* Section 4: Portofolio */
+    .portfolio-section {
+      background-color: white;
+      padding: 20px;
+      margin: 20px;
+    }
+
+    .portfolio-section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .portfolio-table {
+      width: 100%;
+      text-align: center;
+    }
+
+    .portfolio-table td {
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    .portfolio-table img {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    .project-title {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .project-desc {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1: Navbar -->
+  <div class="navbar">
+    <div class="brand">Brand</div>
+    <div>
+      <a href="#header">Header</a>
+      <a href="#biodata">Biodata</a>
+      <a href="#portfolio">Portofolio</a>
+    </div>
+  </div>
+
+  <!-- Section 2: Header -->
+  <div class="header-section" id="header">
+    <table class="header-table">
+      <tr>
+        <td width="60%">
+          <div class="header-title">Selamat Datang di Website Saya</div>
+          <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+          <a href="#" class="btn">Pelajari Lebih Lanjut</a>
+        </td>
+        <td width="40%">
+          <img src="https://via.placeholder.com/600x400" alt="Header Image" width="100%">
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Section 3: Biodata -->
+  <div class="biodata-section" id="biodata">
+    <h2>Tentang Saya</h2>
+    <p>A brief introduction about myself</p>
+    <table class="biodata-table">
+      <tr>
+        <td>Budi Kurniawan</td>
+        <td>SMA</td>
+        <td>Karyawan Swasta</td>
+      </tr>
+      <tr>
+        <td>IG : Budikur_Alkasan</td>
+        <td>Sepak Bola</td>
+        <td>Jakarta Pusat</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Section 4: Portofolio -->
+  <div class="portfolio-section" id="portfolio">
+    <h2>Portofolio</h2>
+    <table class="portfolio-table">
+      <tr>
+        <td>
+          <img src="https://via.placeholder.com/350x200" alt="Project 1">
+          <div class="project-title">Proyek 1</div>
+          <div class="project-desc">Deskripsi proyek 1.</div>
+        </td>
+        <td>
+          <img src="https://via.placeholder.com/350x200" alt="Project 2">
+          <div class="project-title">Proyek 2</div>
+          <div class="project-desc">Deskripsi proyek 2.</div>
+        </td>
+        <td>
+          <img src="https://via.placeholder.com/350x200" alt="Project 3">
+          <div class="project-title">Proyek 3</div>
+          <div class="project-desc">Deskripsi proyek 3.</div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
